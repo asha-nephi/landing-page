@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | Deseret Facility Management LTD</title>
+    <meta name="description" content="Learn about Deseret Facility Management LTD, our mission to bridge the gap for diaspora property owners in Lagos through digital trust and structural excellence.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            mustard: '#D4933E',
+                            mustardHover: '#B87A30',
+                            mustardLight: '#FDF7EE',
+                            dark: '#0F172A',
+                            darker: '#0B1120',
+                            light: '#FAFAFA',
+                            textMuted: '#64748B',
+                        }
+                    },
+                    fontFamily: {
+                        heading: ['Outfit', 'sans-serif'],
+                        sans: ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-white text-brand-dark font-sans">
+
+    <nav class="bg-white/95 backdrop-blur-lg border-b border-gray-100 sticky top-0 z-50 transition-all duration-300">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <a href="index.html" class="flex items-center gap-3">
+                    <img class="h-10 w-auto object-contain" src="Deseret-Facility-Management-LTD-Logo.jpg" alt="Logo">
+                    <div class="flex flex-col leading-tight border-l pl-3 border-gray-200">
+                        <span class="font-heading font-bold text-xl tracking-tight text-brand-dark">DESERET</span>
+                        <span class="text-[10px] font-bold uppercase tracking-[0.2em] text-brand-mustard">Facility Management</span>
+                    </div>
+                </a>
+                
+                <button id="mobile-menu-btn" class="md:hidden p-2 rounded-lg hover:bg-gray-100 transition-colors">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+                </button>
+
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="services.html" class="text-sm font-semibold text-gray-600 hover:text-brand-mustard transition-colors">Services</a>
+                    <a href="about.html" class="text-sm font-semibold text-brand-mustard">About</a>
+                    <a href="contact.html" class="bg-brand-dark text-white px-6 py-2.5 rounded-full text-sm font-bold hover:bg-brand-mustard transition-all duration-300 shadow-lg shadow-gray-200">
+                        Get a Quote
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-gray-100">
+            <div class="px-4 pt-2 pb-6 space-y-2 flex flex-col">
+                <a href="services.html" class="block px-3 py-3 rounded-md text-base font-semibold text-gray-600 hover:text-brand-mustard hover:bg-gray-50 transition-colors">Services</a>
+                <a href="about.html" class="block px-3 py-3 rounded-md text-base font-semibold text-brand-mustard bg-brand-mustardLight">About</a>
+                <a href="contact.html" class="block px-3 py-3 mt-4 text-center rounded-lg text-base font-bold bg-brand-dark text-white hover:bg-brand-mustard transition-colors">Get a Quote</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="py-24 bg-brand-light border-b border-gray-100 relative overflow-hidden">
+        <div class="absolute inset-x-0 bottom-0 top-0 bg-pattern opacity-50"></div>
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
+            <span class="inline-block py-1 px-3 bg-brand-mustard/10 text-brand-mustard text-xs font-bold uppercase tracking-widest mb-4 rounded-full">Our Story</span>
+            <h1 class="font-heading text-4xl md:text-5xl lg:text-6xl font-bold mb-8">Bridging the Gap for <span class="text-brand-mustard">Diaspora Owners</span>.</h1>
+            <p class="text-brand-textMuted text-xl max-w-3xl mx-auto leading-relaxed">
+                Deseret Facility Management LTD was founded on a single premise: distance should never compromise property integrity or owner peace of mind.
+            </p>
+        </div>
+    </header>
+
+    <div class="py-24">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-20 items-center">
+                <div class="relative">
+                    <div class="absolute -inset-4 bg-brand-mustard/10 rounded-[3rem] rotate-3 -z-10"></div>
+                    <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=1200" alt="Excellence" class="rounded-[2.5rem] shadow-2xl">
+                </div>
+                <div>
+                    <h2 class="font-heading text-3xl font-bold mb-6">Born from Personal Challenge</h2>
+                    <p class="text-brand-textMuted text-lg leading-relaxed mb-6">
+                        Our founders experienced first-hand the difficulties of managing premium Lagos properties while residing abroad. The lack of structural accountability and "opaque" service charge budgets led to a vision for a professional alternative.
+                    </p>
+                    <p class="text-brand-textMuted text-lg leading-relaxed">
+                        Today, Deseret stands as a beacon of professionalism in the Nigerian facility management space, combining local expertise with international standards of transparency.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="py-24 bg-brand-dark text-white">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+                <div class="p-8 bg-white/5 rounded-3xl border border-white/10">
+                    <div class="w-12 h-12 bg-brand-mustard rounded-2xl flex items-center justify-center mb-6">
+                        <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path></svg>
+                    </div>
+                    <h3 class="font-heading text-xl font-bold mb-4">Our Mission</h3>
+                    <p class="text-gray-400 leading-relaxed">To preserve structural assets and enhance quality of life through preventive management and ethical transparency.</p>
+                </div>
+                <div class="p-8 bg-white/5 rounded-3xl border border-white/10">
+                    <div class="w-12 h-12 bg-brand-mustard rounded-2xl flex items-center justify-center mb-6">
+                        <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"></path></svg>
+                    </div>
+                    <h3 class="font-heading text-xl font-bold mb-4">Our Vision</h3>
+                    <p class="text-gray-400 leading-relaxed">To be the primary trusted partner for African property owners globally, redefining trust in facility stewardship.</p>
+                </div>
+                <div class="p-8 bg-white/5 rounded-3xl border border-white/10">
+                    <div class="w-12 h-12 bg-brand-mustard rounded-2xl flex items-center justify-center mb-6">
+                        <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path></svg>
+                    </div>
+                    <h3 class="font-heading text-xl font-bold mb-4">Our Values</h3>
+                    <p class="text-gray-400 leading-relaxed">Proactive Prevention, Absolute Integrity, Data-Driven Results, and Professional Empathy.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-brand-darker text-white pt-16 pb-10 border-t border-gray-800">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-12 gap-10 mb-12 text-center md:text-left">
+                <div class="md:col-span-5">
+                    <div class="flex items-center gap-3 mb-6 justify-center md:justify-start">
+                        <img class="h-8 w-auto brightness-50 invert" src="Deseret-Facility-Management-LTD-Logo.jpg" alt="Logo">
+                        <span class="font-heading font-bold text-xl tracking-tight">DESERET</span>
+                    </div>
+                    <p class="text-gray-400 text-sm leading-relaxed mb-6">Premium facility standards through proactive maintenance and unmatched professionalism for the Nigerian Diaspora.</p>
+                    <div class="space-y-3">
+                        <p class="text-gray-300 text-sm font-medium">Ikeja, Lagos, Nigeria</p>
+                        <p class="text-brand-mustard text-sm font-bold">nephi.asha@deseretfacilities.com</p>
+                    </div>
+                </div>
+                
+                <div class="md:col-span-3 md:col-start-7">
+                    <h3 class="font-heading font-bold text-lg mb-4">Navigation</h3>
+                    <ul class="space-y-3 text-sm text-gray-400 font-medium">
+                        <li><a href="services.html" class="hover:text-brand-mustard transition-colors">Our Services</a></li>
+                        <li><a href="contact.html" class="hover:text-brand-mustard transition-colors">Property Evaluation</a></li>
+                        <li><a href="#" class="hover:text-brand-mustard transition-colors">Client Portal Login</a></li>
+                    </ul>
+                </div>
+
+                <div class="md:col-span-3">
+                    <h3 class="font-heading font-bold text-lg mb-4">Compliance</h3>
+                    <ul class="space-y-3 text-sm text-gray-400 font-medium">
+                        <li>RC Number: <span class="text-gray-200">9461286</span></li>
+                        <li><a href="privacy.html" class="hover:text-gray-200 transition-colors text-[11px] uppercase tracking-widest">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-800 pt-8 text-center text-xs text-gray-500 font-medium tracking-wide">
+                &copy; 2026 Deseret Facility Management LTD. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const btn = document.getElementById('mobile-menu-btn');
+        const menu = document.getElementById('mobile-menu');
+        btn.addEventListener('click', () => { menu.classList.toggle('hidden'); });
+    </script>
+</body>
+</html>
